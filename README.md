@@ -1,4 +1,4 @@
-Go 1.8 lighting talk
+Go 1.8 lightning talk
 ====================
 [https://golang.org/pkg/plugin/](https://golang.org/pkg/plugin/)
 
