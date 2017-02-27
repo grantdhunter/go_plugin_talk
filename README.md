@@ -4,7 +4,7 @@ Go 1.8 lighting talk
 
 - A plugin is a shared object that can be loaded at run time.
 - Plugins are cached after being initialized.
-- Currently only works on linux
+- **Currently only works on linux** :(
 
 ### Load a plugin like this:
 ```go
@@ -38,7 +38,7 @@ go build -buildmode=plugin -o plugins/do_it.so plugins/do_it.go
 go run main.go
 ```
 
-## Play around with removing the `.so` files and hitting these urls
+Play around with removing the `.so` files and hitting these urls
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: 8c453945-6848-cf8c-4b27-eac133b10c3c" -d '{
