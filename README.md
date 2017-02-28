@@ -4,6 +4,7 @@ Go 1.8 lightning talk
 
 - A plugin is a shared object that can be loaded at run time.
 - Plugins are cached after being initialized.
+- Safe to use in multiple goroutines
 - **Currently only works on linux** :(
 
 ### Load a plugin like this:
